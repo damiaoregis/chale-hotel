@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Chalé Hotel</title>
+</head>
+<body>
+    <div id="container-reserva"><!--inicio container-->
+        <div id="topo"><!--inicio topo-->
+             <div id="area-logo" >
+                 <h1 class="logo">
+                     <a href="">Chalé Hotel</a>
+                 </h1>
+             </div>
+             <div id="area-menu"><!--inicio area menu-->
+                  <div id="conteudo-menu">
+                     <div id="menu-locais">
+                        <ul class="lista-lugares">
+                            <li><a href="">São Paulo</a></li>
+                            <li><a href="">Rio de Janeiro </a></li>
+                            <li><a href="">Belo Horizonte</a></li>
+                        </ul>
+                        <a class="reserva" href="reserva.html">Reservar</a>
+                        <div style="clear: both;"></div>
+                     </div>
+                     <div id="menu">
+                         <ul id="navegacao">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="">História</a></li>
+                            <li><a href="">Imprensa</a></li>
+                            <li><a href="">Gastronomia</a></li>
+                            <li><a href="">Contatos</a></li>
+                         </ul>
+                         <img class="depoimento" src="imagens/depoimento.png" >
+                     </div>
+                  </div>
+             </div><!--fim area nemu-->       
+        </div><!--fim topo-->
+        <div id="area-reserva"><!--inicio area reserva--> 
+             <div class="conteudo">
+                <h2>
+                    Reservar estadía
+                </h2>
+                <form action="">
+                    <fieldset>
+                        <legend>Dados pessoais</legend>
+            
+                        <div>
+                            <label for="nome">Nome:</label>
+                            <input class="texto" type="text" name="nome" id="nome">
+                        </div>
+                             
+                        <div class="flutua">
+                            <label for="cpf">CPF:</label>
+                            <input class="texto" type="text" name="cpf" id="cpf">
+                        </div>
+                           
+                        <div>
+                            <label for="rg">RG:</label>
+                            <input class="texto" type="text" name="rg" id="rg">
+                        </div>
+
+                        <div>
+                            <label for="email">Email:</label>
+                            <input class="texto" type="text" name="email" id="email">
+                        </div>
+            
+                        <div>
+                            <label for="telefone">telefone:</label>
+                            <input class="texto" type="text" name="url" id="url">
+                        </div>
+                    
+                    </fieldset> 
+                    <fieldset>
+                        <legend>Dados da reserva</legend>
+                        
+                        <div>
+                            <label for="data-inicio">Data inicial da reserva:</label>
+                            <input class="texto" type="text" name="data-inicio" id="data-inicio">
+                        </div>
+                                                  
+                        <div>
+                            <label>
+                                <input class="radio" type="radio" name="lembrar" id="um-dia">1 dia
+                            </label>
+                        </div>
+
+                        <div>
+                            <label>
+                                <input class="radio" type="radio" name="lembrar" id="um-dia">2 dias
+                            </label>
+                        </div>
+
+                        <div>
+                            <label>
+                                <input class="radio" type="radio" name="lembrar" id="um-dia">3 dias
+                            </label>
+                        </div>
+                        <div>
+                            <label>
+                                <input class="radio" type="radio" name="lembrar" id="uma-semana" > Uma semana
+                            </label>
+                        </div>
+                    </fieldset>
+                  
+                    <div id="buton"> 
+                        <div>
+                            <input class="submit" type="submit" value="Reservar"> 
+                        </div>
+
+                        <div>
+                            <input class="cancelar" type="submit" value="Cancelar">
+                        </div>
+                    </div>
+                </form>
+             </div>
+        </div><!--fim area reserva--> 
+        <div id="rodape">
+            <span>
+                &copy; Copyright 2000-2021 Chalé Hotel
+            </span>
+        </div>
+    </div><!--fim container-->
+</body>
+</html>

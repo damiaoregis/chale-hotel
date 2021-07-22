@@ -202,3 +202,64 @@ p {
     background: #f6f3d6;   
     cursor: pointer;
 }
+/* farmatar pg reservar*/
+
+#container-reserva {
+    background: #ede9cc url(../imagens/fundo-reservaa.png) top center;
+    margin: 0 auto;
+    min-width: 740px;
+    max-width: 1180px;                     
+}
+
+#area-reserva fieldset {
+    color: #8b8448;
+    width: 90%;
+    background: #fff;
+    border: 1px solid #7d7640;
+    padding: 15px;
+    margin: 15px auto;
+
+}
+
+#area-reserva .radio {
+    margin-right: 1em;
+}
+
+#area-reserva fieldset .texto {
+    width: 20em;
+    margin: 15px;
+    padding: 6px;
+}
+
+#area-reserva label{
+    display: block;
+    cursor: pointer;
+}
+
+#area-reserva h2 {
+    line-height: 50px;
+    font-size: 1.1em;
+    margin: 5px 0;
+}
+.conteudo form #buton{
+    width: 50%;
+    margin: 0 auto;
+}
+
+#area-reserva form .submit {
+     width: 40%;
+     background:green;
+     padding: 0.7em;
+     color: white;
+     float: left;
+     margin: 15px;
+}
+
+#area-reserva form .cancelar {
+    width: 40%;
+    background:red;
+    padding: 0.7em;
+    color: white;
+    float: right;
+    margin: 15px;
+}
